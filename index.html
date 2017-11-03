@@ -5,17 +5,15 @@
     <title>Broadway Design</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="home">
       <p>Broadway Design</p>
-        <div id="list">
-          <nav>
-              <p>Home</p>
-              <p>Process</p>
-              <p>Work</p>
-              <p>Team</p>
-              <p>Contact</p>
+          <nav id="list">
+              <p><a href=#home>Home</a></p>
+              <p><a href="#process">Process</a></p>
+              <p><a href="#work">Work</a></p>
+              <p><a href="#team">Team</a></p>
+              <p><a href="#contact">Contact</a></p>
           </nav>
-        </div>
     </div>
     <div>
       <p id="process">Our Process</p>
@@ -41,7 +39,9 @@
         <p>Twitter: @test</p>
     </div>
   <div class="footer">
-    <footer>© Broadway 2017 Home About Work Team Contact</footer>
+    <footer>
+      © Broadway 2017 <a href=#home>Home</a> <a href="#process">About</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a>
+    </footer>
   </div>
   </body>
 </html>
